@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flex Fitness Gym | Transform Your Body</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="brand">
+<h1 class="logo">FLEX FITNESS GYM</h1>
+<span class="tagline">Strength • Fitness • Transformation</span>
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#programs">Programs</a>
+<a href="#trainers">Trainers</a>
+<a href="#membership">Membership</a>
+<a href="#schedule">Schedule</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1>Transform Your Body</h1>
+
+<p>
+Professional strength training, weight loss programs and personal coaching
+at Flex Fitness Gym.
+</p>
+
+<a href="#trial" class="btn">Start Free Trial</a>
+
+</div>
+
+</section>
+
+<!-- STATS -->
+
+<section class="stats reveal">
+
+<div class="stat">
+<h2 class="counter" data-target="1200">0</h2>
+<p>Members Trained</p>
+</div>
+
+<div class="stat">
+<h2 class="counter" data-target="10">0</h2>
+<p>Years Experience</p>
+</div>
+
+<div class="stat">
+<h2 class="counter" data-target="8">0</h2>
+<p>Expert Trainers</p>
+</div>
+
+<div class="stat">
+<h2 class="counter" data-target="150">0</h2>
+<p>Daily Visitors</p>
+</div>
+
+</section>
+
+
+<!-- PROGRAMS -->
+
+<section id="programs" class="products reveal">
+
+<h2>Training Programs</h2>
+
+<div class="product-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1550345332-09e3ac987658">
+<h3>Strength Training</h3>
+<p>Build muscle and increase power with weight training.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba">
+<h3>Weight Loss</h3>
+<p>Fat burning workouts and diet guidance.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517963879433-6ad2b056d712">
+<h3>Personal Training</h3>
+<p>One-to-one training sessions with expert trainers.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- TRAINERS -->
+
+<section id="trainers" class="reveal">
+
+<h2>Our Trainers</h2>
+
+<div class="product-grid">
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/men/32.jpg">
+<h3>John Carter</h3>
+<p>Strength Coach | 8 Years Experience</p>
+</div>
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/women/44.jpg">
+<h3>Sarah Lee</h3>
+<p>Weight Loss Expert | 6 Years Experience</p>
+</div>
+
+<div class="card">
+<img src="https://randomuser.me/api/portraits/men/55.jpg">
+<h3>Mike Brown</h3>
+<p>Crossfit Trainer | 7 Years Experience</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- MEMBERSHIP -->
+
+<section id="membership" class="membership">
+
+<h2>Membership Plans</h2>
+
+<div class="membership-grid">
+
+<div class="plan">
+
+<h3>Basic</h3>
+<p class="price">₹999 / month</p>
+
+<ul>
+<li>Gym Equipment</li>
+<li>Cardio Area</li>
+<li>Locker Room</li>
+</ul>
+
+<a href="https://wa.me/918928480501?text=I want to join Basic Plan" class="btn">Join</a>
+
+</div>
+
+<div class="plan popular">
+
+<h3>Standard</h3>
+<p class="price">₹1499 / month</p>
+
+<ul>
+<li>Workout Guidance</li>
+<li>Diet Suggestions</li>
+<li>All Basic Features</li>
+</ul>
+
+<a href="https://wa.me/918928480501?text=I want to join Standard Plan" class="btn">Join</a>
+
+</div>
+
+<div class="plan">
+
+<h3>Premium</h3>
+<p class="price">₹2499 / month</p>
+
+<ul>
+<li>Personal Trainer</li>
+<li>Custom Workout</li>
+<li>Diet Plan</li>
+</ul>
+
+<a href="https://wa.me/918928480501?text=I want to join Premium Plan" class="btn">Join</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CLASS SCHEDULE -->
+
+<section id="schedule">
+
+<h2>Weekly Class Schedule</h2>
+
+<table class="schedule">
+
+<thead>
+<tr>
+<th>Day</th>
+<th>Morning</th>
+<th>Evening</th>
+</tr>
+</thead>
+
+<tbody id="schedule-body"></tbody>
+
+</table>
+
+</section>
+
+
+<!-- BMI CALCULATOR -->
+
+<section id="bmi">
+
+<h2>BMI Calculator</h2>
+
+<input type="number" id="height" placeholder="Height (cm)">
+<input type="number" id="weight" placeholder="Weight (kg)">
+
+<button onclick="calculateBMI()">Calculate BMI</button>
+
+<p id="result"></p>
+
+</section>
+
+<!-- GALLERY -->
+
+<section id="gallery" class="gallery reveal">
+
+<h2>Gym Gallery</h2>
+
+<div class="product-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61">
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48">
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
+</div>
+
+</div>
+
+</section>
+
+<!-- FREE TRIAL -->
+
+<section id="trial">
+
+<h2>Book Free Trial</h2>
+
+<form>
+
+<input type="text" placeholder="Name" required>
+<input type="tel" placeholder="Phone" required>
+<input type="text" placeholder="Fitness Goal">
+
+<button type="submit">Book Trial</button>
+
+</form>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact Flex Fitness Gym</h2>
+
+<p>📍 Kolhapur</p>
+<p>📞 +91 89284 80501</p>
+
+<a href="https://wa.me/918928480501" class="btn">Chat On WhatsApp</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Flex Fitness Gym</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/918928480501">💬</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
